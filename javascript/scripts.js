@@ -26,7 +26,7 @@ document.querySelector('form').addEventListener('submit', (event) => {
 
 const nav = document.querySelector('nav');
 nav.addEventListener('mouseover', () => {
-    nav.style.backgroundColor = 'rgba(0,0,0,0.8)';
+    nav.style.backgroundColor = 'rgba(0,0,0,0.0)';
 });
 nav.addEventListener('mouseout', () => {
     nav.style.backgroundColor = '#333';
